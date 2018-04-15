@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference
+        android:key="notification"
+        android:title="Notification"
+        />
+    <SwitchPreference
+        android:key="location"
+        android:title="Location"
+        />
+    <EditTextPreference
+        android:key="@string/weight"
+        android:title="Weight"
+        android:dialogTitle="Weight"
+        android:dialogMessage="Enter your weight"/>
+    <EditTextPreference
+        android:key="@string/age"
+        android:title="Age"
+        android:dialogTitle="Weight"
+        android:dialogMessage="Enter your age"/>
+</PreferenceScreen>

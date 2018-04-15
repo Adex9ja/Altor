@@ -1,0 +1,222 @@
+<resources>
+    <string name="app_name">Altor</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Monitor Heart Beat Rate!</string>
+    <string name="slide_1_desc">Know your heart beat rate reading from your wrist band device!</string>
+
+    <string name="slide_2_title">Stay Safe</string>
+    <string name="slide_2_desc">Worry less about your health condition. Get instant update on your health status!</string>
+
+    <string name="slide_3_title">Drink Responsibly</string>
+    <string name="slide_3_desc">Never getting drunk. Get alert when you are getting drunk!</string>
+
+    <string name="slide_4_title">Check Alcohol Level</string>
+    <string name="slide_4_desc">You can check your alcohol level anytime!</string>
+
+    <string name="title_activity_main">ALTOR</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="firstlaunch">ISFIRSTTIMELAUNCH</string>
+    <string name="title_activity_login">Login</string>
+    <string name="login_file">ALTOR_APPTHEME_LOGIN_FILE</string>
+    <string name="username">ALTOR_USERNAME</string>
+    <string name="age">ALTOR_AGE</string>
+    <string name="weight">ALTOR_WEIGHT</string>
+    <string name="title_activity_registration">Registration</string>
+    <string-array name="sex">
+        <item>Select...</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="maritalStatus">
+        <item>Select...</item>
+        <item>Single</item>
+        <item>Married</item>
+        <item>Divorce</item>
+        <item>Widow</item>
+    </string-array>
+    <string name="about">User is alerted about their Intoxication Levels on the Mi-band and via the mobile app
+
+User can connect the device with a group of friends; who are alerted when a member of the group has exceeded their recommended Intoxication Levels.</string>
+    <string name="title_activity_list_of_drinks">Drinks</string>
+    <string name="dbName">altorDB</string>
+    <string name="title_activity_test">Test</string>
+
+
+    <string-array name="category">
+        <item>Alcopops</item>
+        <item>Beer</item>
+        <item>Champagne</item>
+        <item>Cider</item>
+
+    </string-array>
+
+    <string-array name="Alcopops">
+        <item> Archers Aqua - 5 - 275ml@2.5,70cl@2.5,Standard(750ml)bottle@4.0,1Litre@4.0</item>
+        <item>Average ABV - 4 - 275ml@2.5</item>
+        <item>Bacardi Breezer - 4 - 275ml@2.5,70cl@2.5,Standard(750ml)bottle@4.0,1Litre@5.0</item>
+        <item>Bailey\'s Glide - 4 - 275ml@2.5,70cl@2.5,Standard(750ml)bottle@3.0,1Litre@4.0</item>
+        <item>Bliss - 5.5 - 275ml@2.5,70cl@2.5,Standard(750ml)bottle@3.0,1Litre@4.0</item>
+        <item>Chekov Ice - 4 - 275ml@2.5,70cl@2.5,Standard(750ml)bottle@3.0,1Litre@4.0</item>
+        <item>Crabbies Ginger Beer - 4 - 330ml@2.5,500ml@4.0</item>
+        <item>Red Square - 5.1 - 275ml@2.5,70cl@2.5,Standard(750ml)bottle@4.0,1Litre@4.5</item>
+        <item>Reef - 5 - 275ml@2.5,70cl@4.0,Standard(750ml)bottle@4.5,1Litre@5.0</item>
+        <item>Smirnoff Ice - 4 - 275ml@2.5,70cl@2.5,Standard(750ml)bottle@3.0,1Litre@4.0</item>
+        <item>VK Vodka Kick - 4 - 275ml@2.5,70cl@4.0,Standard(750ml)bottle@4.5,1Litre@4.5</item>
+        <item>Vodka Mudshake - 4 - 275ml@2.0,70cl@2.5,Standard(750ml)bottle@3.0,1Litre@4.0</item>
+        <item>WKD - 4 - 275ml@2.0,70cl@4.0</item>
+    </string-array>
+
+    <string-array name="Beer">
+        <item>Ale/Stout</item>
+        <item>Larger</item>
+    </string-array>
+
+    <string-array name="Ale_Stout">
+        <item>1845 - 6.3 - Half Pint@1.5,440ml@0.0,500ml@3.0,Pint@3.0</item>
+        <item>1892 - 3.3 - Half Pint@1.5,330ml@2.5,440ml@0.0,500ml@3.0,Pint@3.0</item>
+        <item>Ansells Bitter - 3.4 - 275ml@1.8,Half Pint@1.5,330ml@2.0ml,440ml@2.2,500ml@3.0,Pint@3.0,660ml double size beer bottle@3.5</item>
+        <item>Ansells Mid - 3.2 - 275ml@1.8,Half Pint@1.5,330ml@2.0ml,440ml@2.20,500ml@3.0,Pint@3.0,660ml double size beer bottle@3.5</item>
+        <item>Badger First Gold - 4 - 275ml@1.8,Half Pint@1.5,330ml@2.0ml,440ml@2.8,500ml@3.0,Pint@3.0</item>
+        <item>Banks\' Barley Gold - 9.1 - 275ml@2.0,Half Pint@1.5,330ml@2.0ml,440ml@2.8,500ml@3.0,Pint@3.0</item>
+        <item>Bass Ale Draught - 4.4 - Half Pint@1.5,Pint@3.0</item>f
+        <item>Beer ABV - 4 - Pint@3.0</item>
+        <item>Bengal Lancer (IPA) - 5 - 275ml@2.0,Half Pint@1.5,330ml@2.0,440ml@2.5,500ml@3.0,Pint@3.0</item>
+        <item>Bishops Finger (Bottle) - 5.4 - 275ml@2.0,330ml@2.5ml,440ml@2.2,500ml@3.2,660ml double size beer bottle@4.0</item>
+        <item>Bishops Finger (cask) - 5 - Half Pint@1.5,Pint@3.0</item>
+        <item>Black Cab - 4.2 - 275ml@2.0+,330ml@2.5ml,440ml@2.8,500ml@3.2</item>
+        <item>Blandford Flyer - 5.2 - Half Pint@1.5,330ml@2.0ml,440ml@2.2,500ml@3.0,Pint@3.0</item>
+        <item>Boddingtons - 4.1 - Half Pint@1.5,440ml@2.2,Pint@3.0</item>
+        <item>Brakspear Bitter - 3.4 - Half Pint@1.5,330ml@2.0ml,500ml@3.0,Pint@3.0</item>
+        <item>Burton Ale - 4.7 - 275ml@1.8,Half Pint@1.5,330ml@2.0ml,440ml@2.2,500ml@3.0,Pint@3.0,660ml double size beer bottle@3.5</item>
+        <item>Caffrey\'s - 4 - Half Pint@1.5,440ml@2.2,Pint@3.0</item>
+        <item>Chiswick Bitter - 3.5 - day@2.5,275ml@1.8,Half Pint@1.5,330ml@2.0ml,440ml@2.2,500ml@3.0</item>
+    </string-array>
+
+    <string-array name="Larger">
+        <item>Amstel - 4.1 - 275ml@1.8,Half Pint@1.5,330ml@2.0ml,440ml@2.2,500ml@3.0,Pint@3.0</item>
+        <item>Average - 5 - small bottle@1.8</item>
+        <item>Baltika No 7 - 5.5 - Half Pint@1.5,330ml@2.0ml,440ml@2.2,500ml@3.0,Pint@3.0,660ml double size beer bottle@3.5</item>
+        <item>Bavaria - 0 - 330ml@2.0ml,440ml@2.2,500ml@3.0</item>
+        <item>Beck\'s - 4.8 - 275ml@1.8,Half Pint@1.5,330ml@2.0ml,440ml@2.2,500ml@3.0,Pint@3.0,660ml double size beer bottle@3.0</item>
+        <item>Beck\'s Blue - 0 - 275ml@1.8,Half Pint@1.5,330ml@2.0ml,440ml@2.2,500ml@3.0,Pint@3.0</item>
+        <item>Beck\'s Vier - 4 - Half Pint@1.5,330ml@2.0ml,440ml@2.2,500ml@3.0,Pint@3.0</item>
+        <item>Bee17 - 4.7 - 275ml@1.8,Half Pint@1.5,330ml@2.0ml,440ml@2.2,500ml@3.0,Pint@3.0,660ml double size beer bottle@3.5</item>
+        <item>Birra Moretti - 4.6 - 275ml@1.8,Half Pint@1.5,330ml@2.0ml,440ml@2.2,500ml@3.0,Pint@3.0,660ml double size beer bottle@3.5</item>
+        <item>Blue Moon - 5.4 - Half Pint@1.5,330ml@2.0ml,440ml@2.2,500ml@3.0,Pint@3.0</item>
+        <item>Brahma - 4.8 - 275ml@1.8,Half Pint@1.5,330ml@2.0ml,440ml@2.2,500ml@3.0,Pint@3.0,660ml double size beer bottle@3.5,2Litre@5.0</item>
+        <item>Brains 45 - 4.5 - Half Pint@1.5,330ml@2.0ml,440ml@2.2,500ml@3.0,Pint@3.0</item>
+        <item>Bud 66 - 4 - Half Pint@1.5,330ml@2.0ml,440ml@2.2,500ml@3.0,Pint@3.0</item>
+        <item>Budweiser (bottle) - 4.8 - 275ml@1.8,Half Pint@1.5,330ml@2.0ml,440ml@2.2,500ml@3.0,Pint@3.0,660ml double size beer bottle@3.5</item>
+        <item>Budweiser draught - 4.3 - Half Pint@1.5,Pint@3.0</item>
+        <item>C2 - 2 - Half Pint@1.5,330ml@2.0ml,440ml@2.2,500ml@3.0,Pint@3.0,70cl@2.5</item>
+        <item>Carling - 4 - Half Pint@1.5,440ml@2.2,500ml@3.0,Pint@3.0</item>
+        <item>Carling Coolers Lemon/Orange - 2 -  275ml@1.8,Half Pint@1.5,330ml@2.0ml,440ml@2.2,500ml@3.0,Pint@3.0,660ml double size beer bottle@3.5</item>
+        <item>Carling Zest Citrus - 2.8 - 275ml@1.8,Half Pint@1.5,330ml@2.0ml,440ml@2.2,500ml@3.0,Pint@3.0,660ml double size beer bottle@3.5</item>
+        <item>Carling Ginger - 2.8 - 275ml@1.8,Half Pint@1.5,330ml@2.0ml,440ml@2.2,500ml@3.0,Pint@3.0,660ml double size beer bottle@3.5</item>
+    </string-array>
+
+    <string-array name="Champagne">
+        <item>Average - 12 - 125ml glass@3.0</item>
+        <item>Blue Nun Delicate Sparkling - 5.5 - Small Wine Glass(125ml)@2.5,Standard Wine Glass (175ml)@3.0,187ml mini wine bottle@2.0,Large Wine Glass(250ml)@3.5,Half a standard(750ml)bottle@2.5,Standard(750ml)bottle@6.0</item>
+        <item>Bollinger - 12 - Small Wine Glass(125ml)@3.5, 150ml champagne glass@4.0,Standard Wine Glass (175ml)@6.0,Large Wine Glass(250ml)@6.0,Standard(750ml)bottle@35.0,1.5 Litre@40.0</item>
+        <item>Freixenet - 11.5 - Small Wine Glass(125ml)@2.5,150ml champagne glass@2.5,Standard Wine Glass (175ml)@3.0,187ml mini wine bottle@2.0,Large Wine Glass(250ml)@3.5,Standard(750ml)bottle@6.0</item>
+        <item>Heidsieck Monopolse - 12 - Small Wine Glass(125ml)@2.5,150ml champagne glass@2.5,Standard Wine Glass (175ml)@3.0,Large Wine Glass(250ml)@3.5,Standard(750ml)bottle@6.0</item>
+        <item>Jacob\'s Creek Sparkling - 12  - Small Wine Glass(125ml)@2.5,Standard Wine Glass (175ml)@3.0,187ml mini wine bottle@2.0,Large Wine Glass(250ml)@3.5,Standard(750ml)bottle@6.0</item>
+        <item>Lambrini - 5.5  - Small Wine Glass(125ml)@2.0,Large Wine Glass(250ml)@3.0,Half a standard(750ml)bottle@2.0,Standard(750ml)bottle@4.0,1.5 Litre@4.0</item>
+        <item>Lambrini Original - 7.5  - Small Wine Glass(125ml)@2.0,Standard Wine Glass (175ml)@2.5,Large Wine Glass(250ml)@3.0,Standard(750ml)bottle@4.0,1.5 Litre@4.0</item>
+        <item>Lanson Black Label - 12.5 - Small Wine Glass(125ml)@4.0,150ml champagne glass@5.0,Standard Wine Glass (175ml)@2.5,Large Wine Glass(250ml)@6.0,Standard(750ml)bottle@35.0,1.5 Litre@35.0</item>
+        <item>Martini Asti Spumante - 7 - Small Wine Glass(125ml)@2.0,Standard Wine Glass (175ml)@2.5,Large Wine Glass(250ml)@3.0,Standard(750ml)bottle@8.0</item>
+        <item>Moet et Chandon Brut Imperial - 12 - Small Wine Glass(125ml)@2.5, 150ml champagne glass@3.0,Standard Wine Glass (175ml)@3.0,Large Wine Glass(250ml)@3.5,Standard(750ml)bottle@30.0,1.5 Litre@35.0</item>
+        <item>Mumm - 12 - Small Wine Glass(125ml)@5.0, 150ml champagne glass@5.0,Standard Wine Glass (175ml)@6.0,Large Wine Glass(250ml)@8.0,Standard(750ml)bottle@30.0,1.5 Litre@35.0</item>
+        <item>Paul Langier - 12 - Small Wine Glass(125ml)@2.5, 150ml champagne glass@2.5,Standard Wine Glass (175ml)@3.0,Large Wine Glass(250ml)@5.5,Hslf a Standard(750ml)bottle@10.0,Standard(750ml)bottle@20.0</item>
+        <item>Piper heidsieck - 12 - Small Wine Glass(125ml)@3.0, 150ml champagne glass@2.5,Standard Wine Glass (175ml)@3.0,Large Wine Glass(250ml)@5.0,Standard(750ml)bottle@30.0,1.5 Litre@35.0</item>
+        <item>Veuve Clicquot - 12 - Small Wine Glass(125ml)@4.0, 150ml champagne glass@4.0,Standard Wine Glass (175ml)@5.0,Large Wine Glass(250ml)@6.0,Standard(750ml)bottle@30.0</item>
+    </string-array>
+
+    <string-array name="Cider">
+        <item>Barnstormer - 5 - 275ml@2.0,Half Pint@1.5,330ml@2.5,440ml@2.8,500ml@3.0,Pint@3.0</item>
+        <item>Barnstorner Black - 7.5 - 275ml@2.0,Half Pint@1.5,330ml@2.5,440ml@2.8,500ml@3.0,Pint@3.0</item>
+        <item>Blackthron - 4.7 - 440ml@2.5,1Litre@4.0</item>
+        <item>Bulmers - 4.5 - 275ml@2.0,Half Pint@1.5,330ml@2.5,440ml@2.8,500ml@3.0,Pint@3.0,660ml double size beer bottle@4.0</item>
+        <item>Carling Cherry Cider - 4 - 275ml@1.8,Half Pint@1.5,330ml@2.5,440ml@2.8,500ml@3.0,Pint@3.0,660ml double size beer bottle@4.0,1Litre@5.0,2Litre@7.0</item>
+        <item>Carling Cider - 4.5 - 275ml@2.0,Half Pint@1.5,330ml@2.5,440ml@2.8,500ml@3.0,Pint@3.0,660ml double size beer bottle@4.0,1Litre@5.0,2Litre@7.0</item>
+        <item>Diamond White - 7.5 - 275ml@2.0,500ml@3.0,1Litre@4.0</item>
+        <item>Frosty Jack - 7.5 - 275ml@2.0,500ml@3.0,1Litre@4.0,2Litre@6.0,3Litre@9.0</item>
+        <item>Gaymer\'s Olde English - 5.5 - 440ml@2.5,1Litre@4.0,2Litre@6.0</item>
+        <item>Jacques Orchard Fruits - 5.5 - 275ml@2.0,Half Pint@1.5,330ml@2.5,440ml@2.8,500ml@3.0,Pint@3.0,660ml double size beer bottle@4.0</item>
+        <item>Lambrini - 7.5 - 275ml@2.0,Standard(750ml)bottle@4.0,1.5Litre@4.0</item>
+        <item>Magners - 4.5 - Half Pint@1.5,440ml@2.5,500ml@3.0,Pint@3.0</item>
+        <item>Merrydown - 7.5 - Half Pint@1.5,330ml@2.0,440ml@2.5,500ml@3.0,Pint@3.0</item>
+        <item>Omega White - 7.5 - Half Pint@1.5,330ml@2.0,440ml@2.5,500ml@3.0,Pint@1.5</item>
+        <item>Scrumpy Jack - 6 - 275ml@1.8,Half Pint@1.5,330ml@2.5,440ml@2.8,500ml@3.0,Pint@3.0,1Litre@4.0,2Litre@6.0</item>
+        <item>Somersby - 4.5 - Half Pint@1.5,330ml@2.5,440ml@2.8,500ml@3.0,Pint@3.0,660ml double size beer bottle@4.0</item>
+        <item>Stella Artois Cidre - 4.5 - 275ml@1.8,Half Pint@1.5,330ml@2.5,440ml@2.8,500ml@3.0,Pint@3.0,660ml double size beer bottle@4.5</item>
+        <item>Stella Artois Pear - 4.5 - 275ml@1.8,Half Pint@1.5,330ml@2.5,440ml@2.8,500ml@3.0,Pint@3.0,660ml double size beer bottle@4.5</item>
+        <item>Strongbow - 5 - 275ml@1.8,Half Pint@1.5,330ml@2.5,440ml@2.8,500ml@3.0,Pint@3.0,1Litre@3.5</item>
+    </string-array>
+
+    <string-array name="Spirits">
+        <item>Dark Sprit</item>
+        <item>Dark Spirit with Diet Mixer</item>
+        <item>Dark Spirit with Energy Drink</item>
+        <item>Dark Spirit with Fruit Juice</item>
+        <item>Dark Spirit with Mixer</item>
+        <item>Light Spirit</item>
+        <item>Light Spirit With Diet Mixer</item>
+        <item>Light Spirit with Energy Drink</item>
+        <item>Light Spirit with Mixer</item>
+        <item>liqueur</item>
+    </string-array>
+
+    <string-array name="defaultdrinks">
+        <item>Alcopops,4.0%,275ml - 1.1Units,£2.50</item>
+        <item>Beer,4.0%,Pint - 2.3Units,£3.00</item>
+        <item>Champagne,12.0%,125ml glass - 1.5Units,£2.50</item>
+        <item>Cider,4.5%,Pint - 2.6Units,£3.00</item>
+        <item>Spirits,40.0%,single - 1.0Units,£2.0</item>
+        <item>Wine,13.0%,175ml glass - 2.3Units,£3.0</item>
+    </string-array>
+    <string name="title_activity_add_drink">Add Drink</string>
+    <string name="presentdate">PRESENTDATE</string>
+    <string name="drinkvalues">DRINKVALUES</string>
+    <string name="drinkunits">DRINKUNITS</string>
+    <string name="title_activity_check_alcohol_level">Alcohol Level</string>
+    <string name="noofsteps">NOOFDTEPS</string>
+    <string name="noofcallorie">NOOFCALLORIE</string>
+    <string name="sex">SEX</string>
+    <string name="title_activity_main2">Health Advice</string>
+
+    <string name="title"> The amount of alcohol and how you drink it affects the level of risk to your health</string>
+    <string name="lowrisk">Low Risk</string>
+    <string name="lowrisktext">If you are typically drinking within the low risk unit guidelines, the risks
+    to yout health will be low. No level of drinking is considered risk-free, so the advice is always to consider individual circumstances
+
+    Low risk level are
+    Men who do not drink more than 14units per week
+    Women who do not drink more than 11.5units per week</string>
+    <string name="increasingrisk">Increasing Risk</string>
+    <string name="increasingrisktext">If you are regularly exceeding the low risk guidelines, your risk of short and long term harm
+    to your health increases/ Alcohol related illness includes liver and heart disease, various cancers and stroke.
+
+    Increasing risk drinkers include:
+        Men who drink more between 15 - 49 units per week on a regular basis
+     Women who drink more between 12 - 34 units per week on a regular basis
+    </string>
+    <string name="higherrisk">Higher Risk</string>
+    <string name="higherrisktext">When drinking considerably above the low risk guidelines the risk to your health increases and your drinking will almost
+    certainly harm your health. Compared to non-drinkers you are at a higher risk of developing serious illness and it may be time to take a
+    serious look at how you can cut back
+
+    Higher risk drinkers includes
+    Men who drinks more than 50units per week on a regular basis
+    Wwomen who drinks more than 35units per week on a regular basis</string>
+
+</resources>

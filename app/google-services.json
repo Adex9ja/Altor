@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "553291250337",
+    "firebase_url": "https://altor-11477.firebaseio.com",
+    "project_id": "altor-11477",
+    "storage_bucket": "altor-11477.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:553291250337:android:33180ddfc7b9ec0f",
+        "android_client_info": {
+          "package_name": "com.altor.android.altor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "553291250337-7q2uels6t89h8ij2t8msjb4rmc0du9hc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.altor.android.altor",
+            "certificate_hash": "034ac7f15a430c15e8fcf3ea99588f1b4aabef5b"
+          }
+        },
+        {
+          "client_id": "553291250337-78hflegmet2qnhn17q9lrq9jn53ocb9q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyEp80oYM-R59HpBbmSl5Qrtr08YQF99U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "553291250337-78hflegmet2qnhn17q9lrq9jn53ocb9q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

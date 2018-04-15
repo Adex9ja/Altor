@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        android:icon="@drawable/ic_menu_manage"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_connect"
+        android:orderInCategory="100"
+        android:title="Connect Device"
+        android:icon="@android:drawable/stat_notify_sync_noanim"
+        app:showAsAction="ifRoom" />
+</menu>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.altor.android.altor.AddDrink"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_add_drink">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:scrollbars="none"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="#fff"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_horizontal"
+                    android:padding="16dp"
+                    style="?android:textAppearanceMedium"
+                    android:text="Drink Category" />
+                <Spinner
+                    android:id="@+id/cbcategory"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="0dp"
+                    android:background="@android:drawable/editbox_background_normal"
+                    android:spinnerMode="dialog"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="#fff"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_horizontal"
+                    android:padding="16dp"
+                    style="?android:textAppearanceMedium"
+                    android:text="Drink Type" />
+                <Spinner
+                    android:id="@+id/cbtype"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="0dp"
+                    android:enabled="false"
+                    android:background="@android:drawable/editbox_background_normal"
+                    android:spinnerMode="dialog"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="#fff"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_horizontal"
+                    android:padding="16dp"
+                    style="?android:textAppearanceMedium"
+                    android:text="Drink Brand / ABV" />
+                <Spinner
+                    android:id="@+id/cbbrand"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="0dp"
+                    android:enabled="false"
+                    android:background="@android:drawable/editbox_background_normal"
+                    android:spinnerMode="dialog"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+               >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="#fff"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_horizontal"
+                    android:padding="16dp"
+                    style="?android:textAppearanceMedium"
+                    android:text="Serving" />
+                <Spinner
+                    android:id="@+id/cbserving"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:padding="0dp"
+                    android:background="@android:drawable/editbox_background_normal"
+                    android:spinnerMode="dialog"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+               >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="#fff"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_horizontal"
+                    android:padding="16dp"
+                    style="?android:textAppearanceMedium"
+                    android:text="Price" />
+                <EditText
+                    android:id="@+id/txtprice"
+                    android:layout_width="match_parent"
+                    android:enabled="false"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textColor="#000000"
+                    android:background="@android:drawable/editbox_background_normal"
+                    android:maxLines="1"
+                    android:singleLine="true"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnsave"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:textColor="#fff"
+            android:background="@android:drawable/bottom_bar"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

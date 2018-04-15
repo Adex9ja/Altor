@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_drinks"
+            android:icon="@android:drawable/ic_dialog_dialer"
+            android:title="Drinks" />
+        <item
+            android:id="@+id/nav_get_taxi"
+            android:icon="@android:drawable/ic_dialog_map"
+            android:title="Get a Taxi" />
+        <item
+            android:id="@+id/nav_nearestpubs"
+            android:icon="@android:drawable/ic_menu_compass"
+            android:title="Nearest Pubs" />
+        <item
+            android:id="@+id/nav_check_alcohol"
+            android:icon="@android:drawable/ic_menu_recent_history"
+            android:title="Check Alcohol Level" />
+        <item
+            android:id="@+id/nav_health_advice"
+            android:icon="@android:drawable/ic_menu_add"
+            android:title="Health Advice" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@android:drawable/ic_delete"
+            android:title="Log Out" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@android:drawable/ic_dialog_info"
+                android:title="About" />
+            <item
+                android:id="@+id/nav_contat_us"
+                android:icon="@android:drawable/ic_dialog_email"
+                android:title="Contact Us" />
+        </menu>
+    </item>
+
+</menu>
